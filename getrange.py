@@ -7,7 +7,7 @@ import os
 import os.path
 import argparse
 
-parser = argparse.ArgumentParser(description='GETRANGE - This app provides metadata on the usage range of lenses used in photographs.')
+parser = argparse.ArgumentParser(description='GETRANGE - This script provides metadata on the usage range of lenses used in photographs.')
 parser.add_argument('--directory', '-d', action='store', default='.',help='Directory to process (default current directory)')
 parser.add_argument('--ext', '-x', action='store',default='jpg', help = 'Extension to count (default "jpg")')
 args = parser.parse_args()
