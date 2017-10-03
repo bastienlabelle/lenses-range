@@ -11,7 +11,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-`python getrange.py --directory /some/directory --extension png`
+```
+python getrange.py --directory /some/directory --extension png
+```
 OR
-`python getrange.py -d /some/directory -x png`
+```
+python getrange.py -d /some/directory -x png
+```
 (Default folder is current, and default extension is jpg)
